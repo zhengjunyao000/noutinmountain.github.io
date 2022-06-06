@@ -6,7 +6,7 @@
   <link href="https://www.zhengjunyao.top/atom.xml" rel="self"/>
   
   <link href="https://www.zhengjunyao.top/"/>
-  <updated>2022-06-06T08:56:13.225Z</updated>
+  <updated>2022-06-06T09:35:34.098Z</updated>
   <id>https://www.zhengjunyao.top/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://www.zhengjunyao.top/2022/06/06/Selenium%20Python%20%E6%95%99%E7%A8%8B/"/>
     <id>https://www.zhengjunyao.top/2022/06/06/Selenium%20Python%20%E6%95%99%E7%A8%8B/</id>
     <published>2022-06-06T08:18:49.330Z</published>
-    <updated>2022-06-06T08:56:13.225Z</updated>
+    <updated>2022-06-06T09:35:34.098Z</updated>
     
     
     <summary type="html">笔记</summary>
@@ -40,7 +40,7 @@
     <link href="https://www.zhengjunyao.top/2022/06/06/selenium%20%E5%90%AF%E5%8A%A8%20Chrome%20%E9%85%8D%E7%BD%AE%E5%8F%82%E6%95%B0%E9%97%AE%E9%A2%98/"/>
     <id>https://www.zhengjunyao.top/2022/06/06/selenium%20%E5%90%AF%E5%8A%A8%20Chrome%20%E9%85%8D%E7%BD%AE%E5%8F%82%E6%95%B0%E9%97%AE%E9%A2%98/</id>
     <published>2022-06-06T08:09:00.726Z</published>
-    <updated>2022-06-06T08:51:32.230Z</updated>
+    <updated>2022-06-06T09:35:42.194Z</updated>
     
     
     <summary type="html">笔记</summary>
@@ -59,14 +59,14 @@
     <link href="https://www.zhengjunyao.top/2022/01/25/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8notion%E9%AB%98%E6%95%88%E7%AE%A1%E7%90%86%E8%87%AA%E6%88%91%20/"/>
     <id>https://www.zhengjunyao.top/2022/01/25/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8notion%E9%AB%98%E6%95%88%E7%AE%A1%E7%90%86%E8%87%AA%E6%88%91%20/</id>
     <published>2022-01-24T23:35:18.000Z</published>
-    <updated>2022-01-27T06:26:46.016Z</updated>
+    <updated>2022-06-06T09:27:35.403Z</updated>
     
     
     <summary type="html">notion</summary>
     
     
     
-    <category term="工具使用" scheme="https://www.zhengjunyao.top/categories/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/"/>
+    <category term="效率工具" scheme="https://www.zhengjunyao.top/categories/%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7/"/>
     
     
     <category term="notion" scheme="https://www.zhengjunyao.top/tags/notion/"/>
@@ -78,17 +78,23 @@
     <link href="https://www.zhengjunyao.top/2022/01/04/%E8%A7%A3%E5%86%B3%E8%BF%9E%E6%8E%A5github%E4%B8%AD443%E9%97%AE%E9%A2%98%20/"/>
     <id>https://www.zhengjunyao.top/2022/01/04/%E8%A7%A3%E5%86%B3%E8%BF%9E%E6%8E%A5github%E4%B8%AD443%E9%97%AE%E9%A2%98%20/</id>
     <published>2022-01-03T22:47:54.000Z</published>
-    <updated>2022-01-10T03:45:30.457Z</updated>
+    <updated>2022-06-06T09:27:27.377Z</updated>
     
     
-    <summary type="html">配置</summary>
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
     
     
     
-    <category term="安装配置" scheme="https://www.zhengjunyao.top/categories/%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE/"/>
+    <category term="软件安装" scheme="https://www.zhengjunyao.top/categories/%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85/"/>
     
     
-    <category term="安装配置" scheme="https://www.zhengjunyao.top/tags/%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE/"/>
+    <category term="github" scheme="https://www.zhengjunyao.top/tags/github/"/>
     
   </entry>
   
@@ -97,17 +103,17 @@
     <link href="https://www.zhengjunyao.top/2021/12/29/python/"/>
     <id>https://www.zhengjunyao.top/2021/12/29/python/</id>
     <published>2021-12-29T14:38:25.458Z</published>
-    <updated>2022-01-10T03:54:23.444Z</updated>
+    <updated>2022-06-06T09:34:55.648Z</updated>
     
     
     <summary type="html">速记</summary>
     
     
     
-    <category term="python" scheme="https://www.zhengjunyao.top/categories/python/"/>
+    <category term="链接汇总" scheme="https://www.zhengjunyao.top/categories/%E9%93%BE%E6%8E%A5%E6%B1%87%E6%80%BB/"/>
     
     
-    <category term="笔记速记" scheme="https://www.zhengjunyao.top/tags/%E7%AC%94%E8%AE%B0%E9%80%9F%E8%AE%B0/"/>
+    <category term="python" scheme="https://www.zhengjunyao.top/tags/python/"/>
     
   </entry>
   
@@ -116,17 +122,17 @@
     <link href="https://www.zhengjunyao.top/2021/12/29/linux/"/>
     <id>https://www.zhengjunyao.top/2021/12/29/linux/</id>
     <published>2021-12-29T14:38:25.442Z</published>
-    <updated>2022-01-10T03:46:08.642Z</updated>
+    <updated>2022-06-06T09:34:46.280Z</updated>
     
     
     <summary type="html">速记</summary>
     
     
     
-    <category term="Linux" scheme="https://www.zhengjunyao.top/categories/Linux/"/>
+    <category term="链接汇总" scheme="https://www.zhengjunyao.top/categories/%E9%93%BE%E6%8E%A5%E6%B1%87%E6%80%BB/"/>
     
     
-    <category term="笔记速记" scheme="https://www.zhengjunyao.top/tags/%E7%AC%94%E8%AE%B0%E9%80%9F%E8%AE%B0/"/>
+    <category term="linux" scheme="https://www.zhengjunyao.top/tags/linux/"/>
     
   </entry>
   
@@ -135,17 +141,17 @@
     <link href="https://www.zhengjunyao.top/2021/12/29/java/"/>
     <id>https://www.zhengjunyao.top/2021/12/29/java/</id>
     <published>2021-12-29T14:38:25.409Z</published>
-    <updated>2022-01-10T03:54:16.521Z</updated>
+    <updated>2022-06-06T09:34:38.646Z</updated>
     
     
     <summary type="html">速记</summary>
     
     
     
-    <category term="java" scheme="https://www.zhengjunyao.top/categories/java/"/>
+    <category term="链接汇总" scheme="https://www.zhengjunyao.top/categories/%E9%93%BE%E6%8E%A5%E6%B1%87%E6%80%BB/"/>
     
     
-    <category term="笔记速记" scheme="https://www.zhengjunyao.top/tags/%E7%AC%94%E8%AE%B0%E9%80%9F%E8%AE%B0/"/>
+    <category term="java" scheme="https://www.zhengjunyao.top/tags/java/"/>
     
   </entry>
   
@@ -154,17 +160,17 @@
     <link href="https://www.zhengjunyao.top/2021/12/29/%E4%B8%AD%E9%97%B4%E4%BB%B6%20/"/>
     <id>https://www.zhengjunyao.top/2021/12/29/%E4%B8%AD%E9%97%B4%E4%BB%B6%20/</id>
     <published>2021-12-29T14:38:25.396Z</published>
-    <updated>2022-01-10T03:45:57.445Z</updated>
+    <updated>2022-06-06T09:34:10.768Z</updated>
     
     
     <summary type="html">速记</summary>
     
     
     
-    <category term="中间件" scheme="https://www.zhengjunyao.top/categories/%E4%B8%AD%E9%97%B4%E4%BB%B6/"/>
+    <category term="链接汇总" scheme="https://www.zhengjunyao.top/categories/%E9%93%BE%E6%8E%A5%E6%B1%87%E6%80%BB/"/>
     
     
-    <category term="笔记速记" scheme="https://www.zhengjunyao.top/tags/%E7%AC%94%E8%AE%B0%E9%80%9F%E8%AE%B0/"/>
+    <category term="中间件" scheme="https://www.zhengjunyao.top/tags/%E4%B8%AD%E9%97%B4%E4%BB%B6/"/>
     
   </entry>
   
@@ -173,17 +179,17 @@
     <link href="https://www.zhengjunyao.top/2021/12/29/%E8%BF%90%E7%BB%B4%E5%AE%89%E5%85%A8/"/>
     <id>https://www.zhengjunyao.top/2021/12/29/%E8%BF%90%E7%BB%B4%E5%AE%89%E5%85%A8/</id>
     <published>2021-12-29T14:38:25.300Z</published>
-    <updated>2022-01-10T03:54:10.547Z</updated>
+    <updated>2022-06-06T09:33:57.226Z</updated>
     
     
     <summary type="html">速记</summary>
     
     
     
-    <category term="运维安全" scheme="https://www.zhengjunyao.top/categories/%E8%BF%90%E7%BB%B4%E5%AE%89%E5%85%A8/"/>
+    <category term="链接汇总" scheme="https://www.zhengjunyao.top/categories/%E9%93%BE%E6%8E%A5%E6%B1%87%E6%80%BB/"/>
     
     
-    <category term="笔记速记" scheme="https://www.zhengjunyao.top/tags/%E7%AC%94%E8%AE%B0%E9%80%9F%E8%AE%B0/"/>
+    <category term="运维安全" scheme="https://www.zhengjunyao.top/tags/%E8%BF%90%E7%BB%B4%E5%AE%89%E5%85%A8/"/>
     
   </entry>
   
@@ -192,17 +198,17 @@
     <link href="https://www.zhengjunyao.top/2021/12/29/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
     <id>https://www.zhengjunyao.top/2021/12/29/%E6%95%B0%E6%8D%AE%E5%BA%93/</id>
     <published>2021-12-29T14:38:25.262Z</published>
-    <updated>2022-01-10T03:45:44.000Z</updated>
+    <updated>2022-06-06T09:33:49.954Z</updated>
     
     
     <summary type="html">速记</summary>
     
     
     
-    <category term="数据库" scheme="https://www.zhengjunyao.top/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    <category term="链接汇总" scheme="https://www.zhengjunyao.top/categories/%E9%93%BE%E6%8E%A5%E6%B1%87%E6%80%BB/"/>
     
     
-    <category term="笔记速记" scheme="https://www.zhengjunyao.top/tags/%E7%AC%94%E8%AE%B0%E9%80%9F%E8%AE%B0/"/>
+    <category term="数据库" scheme="https://www.zhengjunyao.top/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
     
   </entry>
   
@@ -211,17 +217,17 @@
     <link href="https://www.zhengjunyao.top/2021/12/29/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%20/"/>
     <id>https://www.zhengjunyao.top/2021/12/29/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%20/</id>
     <published>2021-12-29T14:38:25.226Z</published>
-    <updated>2022-06-06T08:15:17.101Z</updated>
+    <updated>2022-06-06T09:33:27.159Z</updated>
     
     
     <summary type="html">学习笔记</summary>
     
     
     
-    <category term="软件测试" scheme="https://www.zhengjunyao.top/categories/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95/"/>
+    <category term="链接汇总" scheme="https://www.zhengjunyao.top/categories/%E9%93%BE%E6%8E%A5%E6%B1%87%E6%80%BB/"/>
     
     
-    <category term="链接汇总" scheme="https://www.zhengjunyao.top/tags/%E9%93%BE%E6%8E%A5%E6%B1%87%E6%80%BB/"/>
+    <category term="软件测试" scheme="https://www.zhengjunyao.top/tags/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95/"/>
     
   </entry>
   
@@ -230,17 +236,23 @@
     <link href="https://www.zhengjunyao.top/2021/12/29/%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE%20/"/>
     <id>https://www.zhengjunyao.top/2021/12/29/%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE%20/</id>
     <published>2021-12-29T14:38:05.898Z</published>
-    <updated>2022-01-10T03:45:18.907Z</updated>
+    <updated>2022-06-06T09:33:02.521Z</updated>
     
     
-    <summary type="html">速记</summary>
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
     
     
     
-    <category term="安装配置" scheme="https://www.zhengjunyao.top/categories/%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE/"/>
+    <category term="链接汇总" scheme="https://www.zhengjunyao.top/categories/%E9%93%BE%E6%8E%A5%E6%B1%87%E6%80%BB/"/>
     
     
-    <category term="笔记速记" scheme="https://www.zhengjunyao.top/tags/%E7%AC%94%E8%AE%B0%E9%80%9F%E8%AE%B0/"/>
+    <category term="软件安装" scheme="https://www.zhengjunyao.top/tags/%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85/"/>
     
   </entry>
   
@@ -249,17 +261,17 @@
     <link href="https://www.zhengjunyao.top/2021/12/29/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
     <id>https://www.zhengjunyao.top/2021/12/29/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/</id>
     <published>2021-12-29T00:02:50.000Z</published>
-    <updated>2022-01-10T03:53:58.654Z</updated>
+    <updated>2022-06-06T09:32:46.062Z</updated>
     
     
     <summary type="html">速记</summary>
     
     
     
-    <category term="计算机网络" scheme="https://www.zhengjunyao.top/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
+    <category term="链接汇总" scheme="https://www.zhengjunyao.top/categories/%E9%93%BE%E6%8E%A5%E6%B1%87%E6%80%BB/"/>
     
     
-    <category term="笔记速记" scheme="https://www.zhengjunyao.top/tags/%E7%AC%94%E8%AE%B0%E9%80%9F%E8%AE%B0/"/>
+    <category term="计算机网络" scheme="https://www.zhengjunyao.top/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
     
   </entry>
   

@@ -63,7 +63,7 @@
       
       <categories>
           
-          <category> 工具使用 </category>
+          <category> 效率工具 </category>
           
       </categories>
       
@@ -88,14 +88,14 @@
       
       <categories>
           
-          <category> 安装配置 </category>
+          <category> 软件安装 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> 安装配置 </tag>
+            <tag> github </tag>
             
         </tags>
       
@@ -113,14 +113,14 @@
       
       <categories>
           
-          <category> python </category>
+          <category> 链接汇总 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> 笔记速记 </tag>
+            <tag> python </tag>
             
         </tags>
       
@@ -138,14 +138,14 @@
       
       <categories>
           
-          <category> Linux </category>
+          <category> 链接汇总 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> 笔记速记 </tag>
+            <tag> linux </tag>
             
         </tags>
       
@@ -163,14 +163,14 @@
       
       <categories>
           
-          <category> java </category>
+          <category> 链接汇总 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> 笔记速记 </tag>
+            <tag> java </tag>
             
         </tags>
       
@@ -188,14 +188,14 @@
       
       <categories>
           
-          <category> 中间件 </category>
+          <category> 链接汇总 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> 笔记速记 </tag>
+            <tag> 中间件 </tag>
             
         </tags>
       
@@ -213,14 +213,14 @@
       
       <categories>
           
-          <category> 运维安全 </category>
+          <category> 链接汇总 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> 笔记速记 </tag>
+            <tag> 运维安全 </tag>
             
         </tags>
       
@@ -238,14 +238,14 @@
       
       <categories>
           
-          <category> 数据库 </category>
+          <category> 链接汇总 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> 笔记速记 </tag>
+            <tag> 数据库 </tag>
             
         </tags>
       
@@ -263,14 +263,14 @@
       
       <categories>
           
-          <category> 软件测试 </category>
+          <category> 链接汇总 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> 链接汇总 </tag>
+            <tag> 软件测试 </tag>
             
         </tags>
       
@@ -288,14 +288,14 @@
       
       <categories>
           
-          <category> 安装配置 </category>
+          <category> 链接汇总 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> 笔记速记 </tag>
+            <tag> 软件安装 </tag>
             
         </tags>
       
@@ -313,14 +313,14 @@
       
       <categories>
           
-          <category> 计算机网络 </category>
+          <category> 链接汇总 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> 笔记速记 </tag>
+            <tag> 计算机网络 </tag>
             
         </tags>
       
