@@ -1,0 +1,548 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>moyao</title><meta name="author" content="莫遥"><meta name="copyright" content="莫遥"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="至繁归于至简">
+<meta property="og:type" content="website">
+<meta property="og:title" content="moyao">
+<meta property="og:url" content="https://www.zhengjunyao.top/index.html">
+<meta property="og:site_name" content="moyao">
+<meta property="og:description" content="至繁归于至简">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://www.zhengjunyao.top/img/touxiang.jpeg">
+<meta property="article:author" content="莫遥">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://www.zhengjunyao.top/img/touxiang.jpeg"><link rel="shortcut icon" href="/img/moyao.svg"><link rel="canonical" href="https://www.zhengjunyao.top/"><link rel="preconnect" href="//cdn.jsdelivr.net"><link rel="preconnect" href="//hm.baidu.com"><link rel="preconnect" href="//busuanzi.ibruce.info"><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" media="print" onload="this.media='all'"><script>var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?a00befe1d322c8a879f0124f52d35a45";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"search.xml","languages":{"hits_empty":"找不到您查询的内容：${query}"}},
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '天',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery@2/dist/fjGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery@2/dist/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: true
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'moyao',
+  isPost: false,
+  isHome: true,
+  isHighlightShrink: false,
+  isToc: false,
+  postUpdate: '2022-06-06 17:19:44'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          const isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches
+          const isLightMode = window.matchMedia('(prefers-color-scheme: light)').matches
+          const isNotSpecified = window.matchMedia('(prefers-color-scheme: no-preference)').matches
+          const hasNoSupport = !isDarkMode && !isLightMode && !isNotSpecified
+
+          if (t === undefined) {
+            if (isLightMode) activateLightMode()
+            else if (isDarkMode) activateDarkMode()
+            else if (isNotSpecified || hasNoSupport) {
+              const now = new Date()
+              const hour = now.getHours()
+              const isNight = hour <= 6 || hour >= 18
+              isNight ? activateDarkMode() : activateLightMode()
+            }
+            window.matchMedia('(prefers-color-scheme: dark)').addListener(function (e) {
+              if (saveToLocal.get('theme') === undefined) {
+                e.matches ? activateDarkMode() : activateLightMode()
+              }
+            })
+          } else if (t === 'light') activateLightMode()
+          else activateDarkMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script></head><body><div class="aplayer no-destroy" data-id="6758390728" data-server="netease" data-type="playlist" data-fixed="true" data-mini="true" data-listfolded="false" data-order="random" data-preload="none" data-autoplay="false" muted=""></div><link rel="stylesheet" href="/css/bilibili.css"><script src="https://cdn.jsdelivr.net/npm/echarts@4.7.0/dist/echarts.min.js"></script><link rel="stylesheet" href="/news/css/news.css"><script src="https://cdn.jsdelivr.net/npm/echarts@4.7.0/map/js/china.js"></script><link rel="stylesheet" href="/css/yuanjiao.css"><link rel="stylesheet" href="//at.alicdn.com/t/font_3113643_c2ttmii7je.css"><!-- hexo injector head_end start --><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Zfour/Butterfly-double-row-display@1.00/cardlistpost.min.css">
+<style>#recent-posts > .recent-post-item >.recent-post-info > .article-meta-wrap > .tags:before {content:"\A";
+  white-space: pre;}#recent-posts > .recent-post-item >.recent-post-info > .article-meta-wrap > .tags > .article-meta__separator{display:none}</style>
+<link rel="stylesheet" href="https://unpkg.zhimg.com/hexo-butterfly-artitalk-pro/lib/card.css" media="defer" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hexo-butterfly-clock/lib/clock.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hexo-butterfly-footer-beautify@1.0.0/lib/runtime.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.1.6/css/swiper.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hexo-butterfly-swiper/lib/swiperstyle.css"><!-- hexo injector head_end end --><meta name="generator" content="Hexo 5.4.0"><link rel="alternate" href="/atom.xml" title="moyao" type="application/atom+xml">
+<div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/img/touxiang.jpeg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"></div><div class="site-data is-center"><div class="data-item"><a href="/archives/"><div class="headline">文章</div><div class="length-num">13</div></a></div><div class="data-item"><a href="/tags/"><div class="headline">标签</div><div class="length-num">5</div></a></div><div class="data-item"><a href="/categories/"><div class="headline">分类</div><div class="length-num">10</div></a></div></div><hr><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 家</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 文库</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/charts/"><i class="fa-fw fas fa-chart-pie"></i><span> 概览</span></a></li><li><a class="site-page child" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></li><li><a class="site-page child" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 我的</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/artitalk/"><i class="fa-fw fas fa-mug-hot"></i><span> 说说</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-film"></i><span> 电影</span></a></li><li><a class="site-page child" href="/bangumis"><i class="fa-fw fas fa-video"></i><span> 追番</span></a></li><li><a class="site-page child" href="/books"><i class="fa-fw fas fa-book"></i><span> 书籍</span></a></li><li><a class="site-page child" href="/picture"><i class="fa-fw far fa-images"></i><span> 图库</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 网站</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/comments/"><i class="fa-fw fas fa-comments"></i><span> 留言</span></a></li></ul></div></div></div></div><div class="page" id="body-wrap"><header class="not-top-img" id="page-header"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">moyao</a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 家</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 文库</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/charts/"><i class="fa-fw fas fa-chart-pie"></i><span> 概览</span></a></li><li><a class="site-page child" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></li><li><a class="site-page child" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 我的</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/artitalk/"><i class="fa-fw fas fa-mug-hot"></i><span> 说说</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-film"></i><span> 电影</span></a></li><li><a class="site-page child" href="/bangumis"><i class="fa-fw fas fa-video"></i><span> 追番</span></a></li><li><a class="site-page child" href="/books"><i class="fa-fw fas fa-book"></i><span> 书籍</span></a></li><li><a class="site-page child" href="/picture"><i class="fa-fw far fa-images"></i><span> 图库</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 网站</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/comments/"><i class="fa-fw fas fa-comments"></i><span> 留言</span></a></li></ul></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav></header><main class="layout" id="content-inner"><div class="recent-posts" id="recent-posts"><div class="recent-post-item"><div class="post_cover left"><a href="/2022/06/06/Selenium%20Python%20%E6%95%99%E7%A8%8B/" title="selenium Python教程"><img class="post_bg" src="https://moyaopicture.oss-cn-shenzhen.aliyuncs.com/img/20220606下载.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="selenium Python教程"></a></div><div class="recent-post-info"><a class="article-title" href="/2022/06/06/Selenium%20Python%20%E6%95%99%E7%A8%8B/" title="selenium Python教程">selenium Python教程</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time class="post-meta-date-created" datetime="2022-06-06T08:18:49.330Z" title="发表于 2022-06-06 16:18:49">2022-06-06</time><span class="article-meta-separator">|</span><i class="fas fa-history"></i><span class="article-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2022-06-06T08:56:13.225Z" title="更新于 2022-06-06 16:56:13">2022-06-06</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95/">软件测试</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/selenium/">selenium</a></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-comments"></i><a class="twikoo-count" href="/2022/06/06/Selenium%20Python%20%E6%95%99%E7%A8%8B/#post-comment"></a><span class="article-meta-label"> 条评论</span></span></div><div class="content">Selenium 是一个用电脑模拟人操作浏览器网页，可以实现自动化，测试等！废话不多说，直接干！
+准备工作
+ 安装seleniumm
+
+pip install selenium
+
+下载浏览器驱动
+
+Firefox 浏览器驱动：geckodriver
+Chrome 浏览器驱动：chromedriver ,CNPM Binaries Mirror (npmmirror.com)， taobao 备用地址
+IE 浏览器驱动：IEDriverServer
+Edge 浏览器驱动：MicrosoftWebDriver
+Opera 浏览器驱动：operadriver
+PhantomJS 浏览器驱动：phantomjs
+需要把浏览器驱动放入系统路径中，或者直接告知 selenuim 的驱动路径
+另外启动浏览器，可以设置一些参数，比如无界面之类的，详细参考：
+
+补充上面一个参数，添加代理：options.add_argument(“–proxy-server=http://XXXXX.com:80“)
+
+可以测试是否正常使用，以下代码：
+12345678910111213141516171819from ...</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/2022/06/06/selenium%20%E5%90%AF%E5%8A%A8%20Chrome%20%E9%85%8D%E7%BD%AE%E5%8F%82%E6%95%B0%E9%97%AE%E9%A2%98/" title="selenium启动chrome配置参数问题"><img class="post_bg" src="https://moyaopicture.oss-cn-shenzhen.aliyuncs.com/img/20220606下载.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="selenium启动chrome配置参数问题"></a></div><div class="recent-post-info"><a class="article-title" href="/2022/06/06/selenium%20%E5%90%AF%E5%8A%A8%20Chrome%20%E9%85%8D%E7%BD%AE%E5%8F%82%E6%95%B0%E9%97%AE%E9%A2%98/" title="selenium启动chrome配置参数问题">selenium启动chrome配置参数问题</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time class="post-meta-date-created" datetime="2022-06-06T08:09:00.726Z" title="发表于 2022-06-06 16:09:00">2022-06-06</time><span class="article-meta-separator">|</span><i class="fas fa-history"></i><span class="article-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2022-06-06T08:51:32.230Z" title="更新于 2022-06-06 16:51:32">2022-06-06</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95/">软件测试</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/selenium/">selenium</a></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-comments"></i><a class="twikoo-count" href="/2022/06/06/selenium%20%E5%90%AF%E5%8A%A8%20Chrome%20%E9%85%8D%E7%BD%AE%E5%8F%82%E6%95%B0%E9%97%AE%E9%A2%98/#post-comment"></a><span class="article-meta-label"> 条评论</span></span></div><div class="content">每次当 selenium 启动 chrome 浏览器的时候，chrome 浏览器很干净，没有插件、没有收藏、没有历史记录，这是因为 selenium 在启动 chrome 时为了保证最快的运行效率，启动了一个裸浏览器，这就是为什么需要配置参数的原因，但是有些时候我们需要的不仅是一个裸浏览器。  
+selenium 启动配置参数接收是 ChromeOptions 类，创建方式如下：
+12from selenium import webdriveroption = webdriver.ChromeOptions()
+
+创建了 ChromeOptions 类之后就是添加参数，添加参数有几个特定的方法，分别对应添加不同类型的配置项目。
+设置 chrome 二进制文件位置 (binary_location)
+1234567891011121314151617from selenium import webdriveroption = webdriver.ChromeOptions()# 添加启动参数option.add_argument()# 添加扩展应用 option.add_extensio ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/2022/01/25/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8notion%E9%AB%98%E6%95%88%E7%AE%A1%E7%90%86%E8%87%AA%E6%88%91%20/" title="如何使用notion高效管理自我"><img class="post_bg" src="https://bu.dusays.com/2022/01/10/1273512bc906d.jpeg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="如何使用notion高效管理自我"></a></div><div class="recent-post-info"><a class="article-title" href="/2022/01/25/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8notion%E9%AB%98%E6%95%88%E7%AE%A1%E7%90%86%E8%87%AA%E6%88%91%20/" title="如何使用notion高效管理自我">如何使用notion高效管理自我</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time class="post-meta-date-created" datetime="2022-01-24T23:35:18.000Z" title="发表于 2022-01-25 07:35:18">2022-01-25</time><span class="article-meta-separator">|</span><i class="fas fa-history"></i><span class="article-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2022-01-27T06:26:46.016Z" title="更新于 2022-01-27 14:26:46">2022-01-27</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/">工具使用</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/notion/">notion</a></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-comments"></i><a class="twikoo-count" href="/2022/01/25/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8notion%E9%AB%98%E6%95%88%E7%AE%A1%E7%90%86%E8%87%AA%E6%88%91%20/#post-comment"></a><span class="article-meta-label"> 条评论</span></span></div><div class="content">如何使用notion高效管理自我为什么选择notion（why）onenote的缺点还没接触notion之前使用onenote作为主力笔记软件，然而onenote缺点太明显了：
+
+界面UI实在太“微软”了，我个人很不喜欢；
+作为一种富文本笔记软件，颇有让人感觉使用word写笔记一样，样式限制很死，同时对多设备下协同并不是那么完美；
+支持的插件太少了，而且功能很难用，就是跳不出那种条条框框给人耳目一新的感觉；
+
+all in one notion接触notion后我完全爱上这个免费开源的软件了，我用这个工具根据我的需求构建了我日常使用场景：
+
+mac+ipad+phone
+phone+pocket+notion
+chrome+notion插件+notion
+
+notion是什么样的软件（what）在我看来，它可以作为你全部日常生活和工作的统一调度中心
+notion优点：
+他是一款使用markdown的软件，对于格式兼容友好很多，反正现在就是很讨厌word这些富文本；
+里面有很多模版可以直接套用，也可以参考自己的使用自己随心所欲创建一个模版；
+它也可以使用于项目管理，支持多人协同，在我看来 ...</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/2022/01/04/%E8%A7%A3%E5%86%B3%E8%BF%9E%E6%8E%A5github%E4%B8%AD443%E9%97%AE%E9%A2%98%20/" title="解决连接github中443问题"><img class="post_bg" src="https://bu.dusays.com/2022/01/10/1273512bc906d.jpeg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="解决连接github中443问题"></a></div><div class="recent-post-info"><a class="article-title" href="/2022/01/04/%E8%A7%A3%E5%86%B3%E8%BF%9E%E6%8E%A5github%E4%B8%AD443%E9%97%AE%E9%A2%98%20/" title="解决连接github中443问题">解决连接github中443问题</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time class="post-meta-date-created" datetime="2022-01-03T22:47:54.000Z" title="发表于 2022-01-04 06:47:54">2022-01-04</time><span class="article-meta-separator">|</span><i class="fas fa-history"></i><span class="article-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2022-01-10T03:45:30.457Z" title="更新于 2022-01-10 11:45:30">2022-01-10</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE/">安装配置</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE/">安装配置</a></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-comments"></i><a class="twikoo-count" href="/2022/01/04/%E8%A7%A3%E5%86%B3%E8%BF%9E%E6%8E%A5github%E4%B8%AD443%E9%97%AE%E9%A2%98%20/#post-comment"></a><span class="article-meta-label"> 条评论</span></span></div><div class="content">问题：今天打开vscode试图克隆github上的项目但是报443连接失败，前提：我是全天24小时挂着代理，网上搜索的解决办法太垃圾了（关掉代理）自己尝试解决了
+
+一，查看ip点开第一个连接查看github的IP地址：https://github.com.ipaddress.com/
+
+将网页中的 IP Address 复制下来 后面备用
+点击第二个连接：https://github.com.ipaddress.com/assets-cdn.github.com
+
+将网页中的 IP Address 复制下来 后面备用
+点击第三个连接：https://github.com.ipaddress.com/assets-cdn.github.com
+同理记住IP address
+二，配置host使用命令：
+sudo nano /private/etc/hosts
+输入上一步查看的ip地址
+
+三，刷新DNSsudo killall -HUP mDNSResponder;say DNS cache has been flushed
+再尝试ping github成功，完美解决
+</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/2021/12/29/python/" title="python速记版"><img class="post_bg" src="https://bu.dusays.com/2022/01/10/dc5fce8ada28f.jpeg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="python速记版"></a></div><div class="recent-post-info"><a class="article-title" href="/2021/12/29/python/" title="python速记版">python速记版</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time class="post-meta-date-created" datetime="2021-12-29T14:38:25.458Z" title="发表于 2021-12-29 22:38:25">2021-12-29</time><span class="article-meta-separator">|</span><i class="fas fa-history"></i><span class="article-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2022-01-10T03:54:23.444Z" title="更新于 2022-01-10 11:54:23">2022-01-10</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/python/">python</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E7%AC%94%E8%AE%B0%E9%80%9F%E8%AE%B0/">笔记速记</a></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-comments"></i><a class="twikoo-count" href="/2021/12/29/python/#post-comment"></a><span class="article-meta-label"> 条评论</span></span></div><div class="content">python
+爬取过的20个基础爬虫案例自己爬取过的20个基础爬虫案例_不愿意透露姓名的网友-CSDN博客_爬虫实例
+python多线程详解python多线程详解（超详细）_世俗的眼光-CSDN博客_python 多线程
+Python+unittest+requests 接口自动化测试框架搭建Python+unittest+requests 接口自动化测试框架搭建 完整的框架搭建过程 实战_songlh1234的博客-CSDN博客_python接口自动化测试框架
+Flask—框架快速入门Flask—框架快速入门_菜鸟可以飞的博客-CSDN博客_flask
+Anaconda详细安装及使用教程Anaconda详细安装及使用教程（带图文）_代码帮-CSDN博客
+Python 程序打包成 .exe
+python pyqt5 制作一个随机点名python pyqt5 制作一个随机点名_Dath闲人的博客-CSDN博客
+sklearn库的学习sklearn库的学习_yeal-CSDN博客_sklearn
+PyQt5（designer）入门教程PyQt5（designer）入门教程_AzureMou ...</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/2021/12/29/linux/" title="Linux速记版"><img class="post_bg" src="https://bu.dusays.com/2022/01/10/1273512bc906d.jpeg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Linux速记版"></a></div><div class="recent-post-info"><a class="article-title" href="/2021/12/29/linux/" title="Linux速记版">Linux速记版</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time class="post-meta-date-created" datetime="2021-12-29T14:38:25.442Z" title="发表于 2021-12-29 22:38:25">2021-12-29</time><span class="article-meta-separator">|</span><i class="fas fa-history"></i><span class="article-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2022-01-10T03:46:08.642Z" title="更新于 2022-01-10 11:46:08">2022-01-10</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Linux/">Linux</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E7%AC%94%E8%AE%B0%E9%80%9F%E8%AE%B0/">笔记速记</a></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-comments"></i><a class="twikoo-count" href="/2021/12/29/linux/#post-comment"></a><span class="article-meta-label"> 条评论</span></span></div><div class="content">LinuxLinux 打包压缩命令Linux 打包压缩命令_zoujin6649的博客-CSDN博客_linux打包压缩命令tar
+
+chmod命令原理及用法详解chmod命令原理及用法详解_lyy14011305的博客-CSDN博客_chmod命令用法
+linux修改root密码和修改其他用户密码linux修改root密码和修改其他用户密码_英阿的博客-CSDN博客_root修改其他用户密码
+linux 输入、输出重定向的概念和用法详解linux 输入、输出重定向的概念和用法详解（Day01）_world_zheng的博客-CSDN博客_linux输入重定向
+linux cat /etc/passwd 说明linux cat /etc/passwd 说明_王肇朋的博客-CSDN博客
+awk详解awk详解_u010502101的博客-CSDN博客_awk
+linux awk命令详解linux awk命令详解 - ggjucheng - 博客园
+ps -ef|grep详解【Linux】ps -ef|grep详解_lukabruce的博客-CSDN博客
+bat文件.bat 文件是什么?做什 ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/2021/12/29/java/" title="java速记版"><img class="post_bg" src="https://bu.dusays.com/2022/01/10/dc5fce8ada28f.jpeg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="java速记版"></a></div><div class="recent-post-info"><a class="article-title" href="/2021/12/29/java/" title="java速记版">java速记版</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time class="post-meta-date-created" datetime="2021-12-29T14:38:25.409Z" title="发表于 2021-12-29 22:38:25">2021-12-29</time><span class="article-meta-separator">|</span><i class="fas fa-history"></i><span class="article-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2022-01-10T03:54:16.521Z" title="更新于 2022-01-10 11:54:16">2022-01-10</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/java/">java</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E7%AC%94%E8%AE%B0%E9%80%9F%E8%AE%B0/">笔记速记</a></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-comments"></i><a class="twikoo-count" href="/2021/12/29/java/#post-comment"></a><span class="article-meta-label"> 条评论</span></span></div><div class="content">java缓存穿透、缓存击穿、缓存雪崩区别和解决方案缓存穿透、缓存击穿、缓存雪崩区别和解决方案_kongtiao5的专栏-CSDN博客
+Redis浅谈Redis是什么？什么作用？优点和缺点_不由不该的博客-CSDN博客_redis是什么
+MySQL事务隔离级别详解MySQL事务隔离级别详解 - JAVA夜无眠 - ITeye博客
+数据库的脏数据问题_budapest的专栏-CSDN博客_数据库脏数据
+数据库的脏数据问题数据库的脏数据问题_budapest的专栏-CSDN博客_数据库脏数据
+面向接口编程面试官的窒息逼问: 到底什么是面向接口编程?
+内存泄漏和内存溢出内存泄漏和内存溢出_weixin_42665577的博客-CSDN博客_内存泄漏和内存溢出
+servletservlet到底是什么_森林体系-CSDN博客_servlet是什么
+SSM框架原理,作用及使用方法SSM框架原理,作用及使用方法_bieleyang的博客-CSDN博客_ssm框架
+MVC模式介绍MVC模式介绍_liitdar的博客-CSDN博客_mvc模式
+Web发展简史Web发展简史(（webapp+Java原生）移 ...</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/2021/12/29/%E4%B8%AD%E9%97%B4%E4%BB%B6%20/" title="中间件速记版"><img class="post_bg" src="https://bu.dusays.com/2022/01/10/1273512bc906d.jpeg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="中间件速记版"></a></div><div class="recent-post-info"><a class="article-title" href="/2021/12/29/%E4%B8%AD%E9%97%B4%E4%BB%B6%20/" title="中间件速记版">中间件速记版</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time class="post-meta-date-created" datetime="2021-12-29T14:38:25.396Z" title="发表于 2021-12-29 22:38:25">2021-12-29</time><span class="article-meta-separator">|</span><i class="fas fa-history"></i><span class="article-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2022-01-10T03:45:57.445Z" title="更新于 2022-01-10 11:45:57">2022-01-10</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E4%B8%AD%E9%97%B4%E4%BB%B6/">中间件</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E7%AC%94%E8%AE%B0%E9%80%9F%E8%AE%B0/">笔记速记</a></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-comments"></i><a class="twikoo-count" href="/2021/12/29/%E4%B8%AD%E9%97%B4%E4%BB%B6%20/#post-comment"></a><span class="article-meta-label"> 条评论</span></span></div><div class="content">中间件浅谈 C/S 和 B/S 架构浅谈 C/S 和 B/S 架构_秋叶原 &amp;&amp; Mike || 麦克-CSDN博客_b/s架构
+消息队列面试官问我：什么是消息队列？什么场景需要他？用了会出现什么问题？_敖丙-CSDN博客_什么场景需要队列
+架构设计 | 单点登录（SSO），从原理到实现架构设计 | 单点登录（SSO），从原理到实现_挖坑埋你-CSDN博客
+jenkins教程jenkins教程_翻身咸鱼的博客-CSDN博客
+k8s常用操作命令k8s常用操作命令_xiaofang2015的博客-CSDN博客_k8s常用命令
+Docker的基本命令Docker的基本命令_苍穹尘的博客-CSDN博客_docker 命令
+MVVM框架对比MVVM框架对比_前端布道者-CSDN博客_js mvvm框架
+NginxNginx是什么 ? 能干嘛 ？_方志朋的专栏-CSDN博客
+Jenkins是什么：持续集成（CI）流程、特点、应用场景Jenkins是什么：持续集成（CI）流程、特点、应用场景_琦彦-CSDN博客_jenkins的优点
+ZooKeeperZooKeeper是什么_李平安 ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/2021/12/29/%E8%BF%90%E7%BB%B4%E5%AE%89%E5%85%A8/" title="运维安全速记版"><img class="post_bg" src="https://bu.dusays.com/2022/01/10/dc5fce8ada28f.jpeg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="运维安全速记版"></a></div><div class="recent-post-info"><a class="article-title" href="/2021/12/29/%E8%BF%90%E7%BB%B4%E5%AE%89%E5%85%A8/" title="运维安全速记版">运维安全速记版</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time class="post-meta-date-created" datetime="2021-12-29T14:38:25.300Z" title="发表于 2021-12-29 22:38:25">2021-12-29</time><span class="article-meta-separator">|</span><i class="fas fa-history"></i><span class="article-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2022-01-10T03:54:10.547Z" title="更新于 2022-01-10 11:54:10">2022-01-10</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E8%BF%90%E7%BB%B4%E5%AE%89%E5%85%A8/">运维安全</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E7%AC%94%E8%AE%B0%E9%80%9F%E8%AE%B0/">笔记速记</a></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-comments"></i><a class="twikoo-count" href="/2021/12/29/%E8%BF%90%E7%BB%B4%E5%AE%89%E5%85%A8/#post-comment"></a><span class="article-meta-label"> 条评论</span></span></div><div class="content">windows-运维-05 初识PowerShellwindows-运维-05 初识PowerShell_IT@feng的博客-CSDN博客
+
+💡 netstat 网络端口状态，route print  查看本机路由信息，cmd /c help 查看cmd命令，Start-Process powershell -Verb runAs 切换管理员
+
+
+
+CMD和win powershell的区别浅谈CMD和win powershell的区别_Diligence is the mother of success.-CSDN博客_cmd和powershell区别
+服务器RAID配置全程服务器RAID配置全程_恒信的博客-CSDN博客_服务器做raid
+弱口令DDoS的攻击原理与防御方法</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/2021/12/29/%E6%95%B0%E6%8D%AE%E5%BA%93/" title="数据库速记版"><img class="post_bg" src="https://bu.dusays.com/2022/01/10/1273512bc906d.jpeg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="数据库速记版"></a></div><div class="recent-post-info"><a class="article-title" href="/2021/12/29/%E6%95%B0%E6%8D%AE%E5%BA%93/" title="数据库速记版">数据库速记版</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time class="post-meta-date-created" datetime="2021-12-29T14:38:25.262Z" title="发表于 2021-12-29 22:38:25">2021-12-29</time><span class="article-meta-separator">|</span><i class="fas fa-history"></i><span class="article-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2022-01-10T03:45:44.000Z" title="更新于 2022-01-10 11:45:44">2022-01-10</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/">数据库</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E7%AC%94%E8%AE%B0%E9%80%9F%E8%AE%B0/">笔记速记</a></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-comments"></i><a class="twikoo-count" href="/2021/12/29/%E6%95%B0%E6%8D%AE%E5%BA%93/#post-comment"></a><span class="article-meta-label"> 条评论</span></span></div><div class="content">数据库SQL语句的左外连接 , 右外连接 , 内连接彷徨 | SQL语句的左外连接 , 右外连接 , 内连接_彷徨的博客-CSDN博客_左外连接的sql语句
+SQL中的连接查询与嵌套查询SQL中的连接查询与嵌套查询_myblog-CSDN博客_sql嵌套查询
+SQL查询语句大全SQL查询语句大全(个人总结)
+SQL中group by详解关于group by的用法 原理_迎着晨曦，Keep Going-CSDN博客
+MySql关键字汇总MySql关键字汇总_yang–x的博客-CSDN博客
+SQL最全基础教程SQL最全基础教程(有本事别看啊!)
+数据库的五种索引类型数据库的五种索引类型_gaotiedun1的博客-CSDN博客_索引类型
+Sql Server 编译、重编译与执行计划重用原理Sql Server 编译、重编译与执行计划重用原理_babauyang的专栏-CSDN博客
+SQL参数化查询SQL参数化查询_zyw_anquan的专栏-CSDN博客_sql参数化查询
+数据库中的锁
+数据库视图是什么，和表有什么区别和联系
+</div></div></div><nav id="pagination"><div class="pagination"><span class="page-number current">1</span><a class="page-number" href="/page/2/#content-inner">2</a><a class="extend next" rel="next" href="/page/2/#content-inner"><i class="fas fa-chevron-right fa-fw"></i></a></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="/img/touxiang.jpeg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"></div><div class="author-info__name">莫遥</div><div class="author-info__description">至繁归于至简</div></div><div class="card-info-data is-center"><div class="card-info-data-item"><a href="/archives/"><div class="headline">文章</div><div class="length-num">13</div></a></div><div class="card-info-data-item"><a href="/tags/"><div class="headline">标签</div><div class="length-num">5</div></a></div><div class="card-info-data-item"><a href="/categories/"><div class="headline">分类</div><div class="length-num">10</div></a></div></div><a class="button--animated" id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/noutinmountain"><i class="fab fa-github"></i><span>github</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="/atom.xml" target="_blank" title="RSS订阅"><i class="iconfont icon-dingyue"></i></a><a class="social-icon" href="mailto:zhengjunyaocn@gmail.com" target="_blank" title="邮件"><i class="iconfont icon-youjian"></i></a><a class="social-icon" href="https://bu.dusays.com/2022/01/27/f39e2d9b94717.jpeg" target="_blank" title="公众号"><i class="iconfont icon-gongzhonghao"></i></a></div></div><div class="sticky_layout"><div class="card-widget card-weibo"><div class="card-content"><div class="item-headline"><i class="fab fa-weibo"></i><span>微博热搜</span></div><div id="weibo-container" style="width: 100%; height: 150px;font-size: 95%;"></div></div></div><script defer="defer" data-pjax="data-pjax" src="https://cdn.jsdelivr.net/gh/Eurkon/CDN/hexo/js/card_weibo.js"></script><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2022/06/06/Selenium%20Python%20%E6%95%99%E7%A8%8B/" title="selenium Python教程"><img src="https://moyaopicture.oss-cn-shenzhen.aliyuncs.com/img/20220606下载.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="selenium Python教程"></a><div class="content"><a class="title" href="/2022/06/06/Selenium%20Python%20%E6%95%99%E7%A8%8B/" title="selenium Python教程">selenium Python教程</a><time datetime="2022-06-06T08:18:49.330Z" title="发表于 2022-06-06 16:18:49">2022-06-06</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/06/06/selenium%20%E5%90%AF%E5%8A%A8%20Chrome%20%E9%85%8D%E7%BD%AE%E5%8F%82%E6%95%B0%E9%97%AE%E9%A2%98/" title="selenium启动chrome配置参数问题"><img src="https://moyaopicture.oss-cn-shenzhen.aliyuncs.com/img/20220606下载.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="selenium启动chrome配置参数问题"></a><div class="content"><a class="title" href="/2022/06/06/selenium%20%E5%90%AF%E5%8A%A8%20Chrome%20%E9%85%8D%E7%BD%AE%E5%8F%82%E6%95%B0%E9%97%AE%E9%A2%98/" title="selenium启动chrome配置参数问题">selenium启动chrome配置参数问题</a><time datetime="2022-06-06T08:09:00.726Z" title="发表于 2022-06-06 16:09:00">2022-06-06</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/01/25/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8notion%E9%AB%98%E6%95%88%E7%AE%A1%E7%90%86%E8%87%AA%E6%88%91%20/" title="如何使用notion高效管理自我"><img src="https://bu.dusays.com/2022/01/10/1273512bc906d.jpeg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="如何使用notion高效管理自我"></a><div class="content"><a class="title" href="/2022/01/25/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8notion%E9%AB%98%E6%95%88%E7%AE%A1%E7%90%86%E8%87%AA%E6%88%91%20/" title="如何使用notion高效管理自我">如何使用notion高效管理自我</a><time datetime="2022-01-24T23:35:18.000Z" title="发表于 2022-01-25 07:35:18">2022-01-25</time></div></div></div></div><div class="card-widget card-tags"><div class="item-headline"><i class="fas fa-tags"></i><span>标签</span></div><div class="card-tag-cloud"><a href="/tags/selenium/" style="font-size: 1.3em; color: rgb(103, 56, 32)">selenium</a><a href="/tags/%E7%AC%94%E8%AE%B0%E9%80%9F%E8%AE%B0/" style="font-size: 1.45em; color: rgb(30, 196, 24)">笔记速记</a><a href="/tags/notion/" style="font-size: 1.15em; color: rgb(187, 4, 51)">notion</a><a href="/tags/%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE/" style="font-size: 1.15em; color: rgb(67, 174, 38)">安装配置</a><a href="/tags/%E9%93%BE%E6%8E%A5%E6%B1%87%E6%80%BB/" style="font-size: 1.15em; color: rgb(112, 12, 57)">链接汇总</a></div></div><div class="card-widget card-archives"><div class="item-headline"><i class="fas fa-archive"></i><span>归档</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/06/"><span class="card-archive-list-date">六月 2022</span><span class="card-archive-list-count">2</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/01/"><span class="card-archive-list-date">一月 2022</span><span class="card-archive-list-count">2</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2021/12/"><span class="card-archive-list-date">十二月 2021</span><span class="card-archive-list-count">9</span></a></li></ul></div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站资讯</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">13</div></div><div class="webinfo-item"><div class="item-name">已运行时间 :</div><div class="item-count" id="runtimeshow" data-publishdate="2021-12-08T16:00:00.000Z"></div></div><div class="webinfo-item"><div class="item-name">本站总字数 :</div><div class="item-count">8.9k</div></div><div class="webinfo-item"><div class="item-name">本站访客数 :</div><div class="item-count" id="busuanzi_value_site_uv"></div></div><div class="webinfo-item"><div class="item-name">本站总访问量 :</div><div class="item-count" id="busuanzi_value_site_pv"></div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastpushdate="2022-06-06T09:19:44.608Z"></div></div></div></div></div></div></main><footer id="footer" style="background: transparent"><div id="footer-wrap"><div class="footer_custom_text"><a target="_blank" rel="noopener" href="https://beian.miit.gov.cn/"><img class="icp-icon" src="https://gitee.com/little-demon1/BlogImages/raw/master/icp.png"><span>粤ICP备2021160231号</span></a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">本地搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据库加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"></div></div><hr><div id="local-search-results"></div></div></div><div id="search-mask"></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page/instantpage.min.js" type="module"></script><script>function panguFn () {
+  if (typeof pangu === 'object') pangu.autoSpacingPage()
+  else {
+    getScript('https://cdn.jsdelivr.net/npm/pangu/dist/browser/pangu.min.js')
+      .then(() => {
+        pangu.autoSpacingPage()
+      })
+  }
+}
+
+function panguInit () {
+  if (false){
+    GLOBAL_CONFIG_SITE.isPost && panguFn()
+  } else {
+    panguFn()
+  }
+}
+
+document.addEventListener('DOMContentLoaded', panguInit)</script><script src="/js/search/local-search.js"></script><div class="js-pjax"><script>(() => { 
+  const getCommentUrl = () => {
+    const eleGroup = document.querySelectorAll('#recent-posts .article-title')
+    let urlArray = []
+    eleGroup.forEach(i=>{
+      urlArray.push(i.getAttribute('href'))
+    })
+    return urlArray
+  }
+
+  const getCount = () => {
+    const runTwikoo = () => {
+      twikoo.getCommentsCount({
+        envId: 'moyao-2gs7iaiaf21d2151',
+        region: '',
+        urls: getCommentUrl(),
+        includeReply: false
+      }).then(function (res) {
+        document.querySelectorAll('#recent-posts .twikoo-count').forEach((item,index) => {
+          item.innerText = res[index].count
+        })
+      }).catch(function (err) {
+        console.log(err)
+      })
+    }
+
+      if (typeof twikoo === 'object') {
+        runTwikoo()
+      } else {
+        getScript('https://cdn.jsdelivr.net/gh/zhheo/twikoo@dev/dist/twikoo.all.min.js').then(runTwikoo)
+      }
+  }
+
+  window.pjax ? getCount() : window.addEventListener('load', getCount)
+
+})()</script></div><script src="https://pv.sohu.com/cityjson?ie=utf-8"></script><script src="/js/ip_content.js"></script><script src="/js/timing.js"></script><script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script><script src="/news/js/keys.js"></script><script src="/news/js/news.js"></script><script async="" src="/js/grayscale.js"></script><script async="" src="/js/diytitle.js"></script><script async="" src="//at.alicdn.com/t/font_3113643_v6j4c9w1tl.js"></script><script defer="defer" id="fluttering_ribbon" mobile="true" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/canvas-fluttering-ribbon.min.js"></script><script src="https://cdn.jsdelivr.net/npm/pjax/pjax.min.js"></script><script>let pjaxSelectors = [
+  'title',
+  '#config-diff',
+  '#body-wrap',
+  '#rightside-config-hide',
+  '#rightside-config-show',
+  '.js-pjax'
+]
+
+if (false) {
+  pjaxSelectors.unshift('meta[property="og:image"]', 'meta[property="og:title"]', 'meta[property="og:url"]')
+}
+
+var pjax = new Pjax({
+  elements: 'a:not([target="_blank"])',
+  selectors: pjaxSelectors,
+  cacheBust: false,
+  analytics: false,
+  scrollRestoration: false
+})
+
+document.addEventListener('pjax:send', function () {
+
+  // removeEventListener scroll 
+  window.removeEventListener('scroll', window.tocScrollFn)
+  window.removeEventListener('scroll', scrollCollect)
+
+  typeof preloader === 'object' && preloader.initLoading()
+  
+  if (window.aplayers) {
+    for (let i = 0; i < window.aplayers.length; i++) {
+      if (!window.aplayers[i].options.fixed) {
+        window.aplayers[i].destroy()
+      }
+    }
+  }
+
+  typeof typed === 'object' && typed.destroy()
+
+  //reset readmode
+  const $bodyClassList = document.body.classList
+  $bodyClassList.contains('read-mode') && $bodyClassList.remove('read-mode')
+
+})
+
+document.addEventListener('pjax:complete', function () {
+  window.refreshFn()
+
+  document.querySelectorAll('script[data-pjax]').forEach(item => {
+    const newScript = document.createElement('script')
+    const content = item.text || item.textContent || item.innerHTML || ""
+    Array.from(item.attributes).forEach(attr => newScript.setAttribute(attr.name, attr.value))
+    newScript.appendChild(document.createTextNode(content))
+    item.parentNode.replaceChild(newScript, item)
+  })
+
+  GLOBAL_CONFIG.islazyload && window.lazyLoadInstance.update()
+
+  typeof chatBtnFn === 'function' && chatBtnFn()
+  typeof panguInit === 'function' && panguInit()
+
+  // google analytics
+  typeof gtag === 'function' && gtag('config', '', {'page_path': window.location.pathname});
+
+  // baidu analytics
+  typeof _hmt === 'object' && _hmt.push(['_trackPageview',window.location.pathname]);
+
+  typeof loadMeting === 'function' && document.getElementsByClassName('aplayer').length && loadMeting()
+
+  // prismjs
+  typeof Prism === 'object' && Prism.highlightAll()
+
+  typeof preloader === 'object' && preloader.endLoading()
+})
+
+document.addEventListener('pjax:error', (e) => {
+  if (e.request.status === 404) {
+    pjax.loadUrl('/404.html')
+  }
+})</script><script async="" data-pjax="" src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div><!-- hexo injector body_end start -->
+  <script data-pjax="" src="https://cdn.jsdelivr.net/gh/Zfour/hexo-github-calendar@1.21/hexo_githubcalendar.js"></script>
+  <script data-pjax="">
+        function GithubCalendarConfig(){
+            var git_githubapiurl ="https://python-github-calendar-api.vercel.app/api?noutinmountain";
+            var git_color =['#ebedf0', '#fdcdec', '#fc9bd9', '#fa6ac5', '#f838b2', '#f5089f', '#c4067e', '#92055e', '#540336', '#48022f', '#30021f'];
+            var git_user ="noutinmountain";
+            var parent_div_git = document.getElementById('recent-posts');
+            var git_div_html = '<div class="recent-post-item" style="width:100%;height:auto;padding:10px;"><div id="github_loading" style="width:10%;height:100%;margin:0 auto;display: block"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  viewBox="0 0 50 50" style="enable-background:new 0 0 50 50" xml:space="preserve"><path fill="#d0d0d0" d="M25.251,6.461c-10.318,0-18.683,8.365-18.683,18.683h4.068c0-8.071,6.543-14.615,14.615-14.615V6.461z" transform="rotate(275.098 25 25)"><animateTransform attributeType="xml" attributeName="transform" type="rotate" from="0 25 25" to="360 25 25" dur="0.6s" repeatCount="indefinite"></animateTransform></path></svg></div><div id="github_container"></div></div>';
+            if(parent_div_git && location.pathname =='/'){
+                console.log('已挂载github calendar')
+                // parent_div_git.innerHTML=git_div_html+parent_div_git.innerHTML // 无报错，但不影响使用(支持pjax跳转)
+                parent_div_git.insertAdjacentHTML("afterbegin",git_div_html) // 有报错，但不影响使用(支持pjax跳转)
+            };
+            GithubCalendar(git_githubapiurl,git_color,git_user)
+        }
+        if(document.getElementById('recent-posts')){
+            GithubCalendarConfig()
+        }
+    </script>
+    <style>#github_container{min-height:280px}@media screen and (max-width:650px) {#github_container{background-image:;min-height:0px}}</style>
+    <style></style><script data-pjax="">
+  function card_artitalk_injector_config(){
+    var parent_div_git = document.getElementsByClassName('sticky_layout')[0];
+    var item_html = '<div class="card-widget card-shuo"><div class="card-content" style="height:auto;min-height:280px;"><div class="item-headline"><i class="fas fa-comments"></i><span><a href="/artitalk/" title="artitalk page link">自说自话</a></span><a id="cardVisual" style="cursor:pointer;float:right" onclick="cardVisual()">编辑</a></div><div id="artitalk_main" style="width:100%;height:100%;padding:1px"></div></div></div>';
+    console.log('已挂载card_artitalk');
+    parent_div_git.insertAdjacentHTML("afterbegin",item_html);
+    (()=>{
+      const init = () => {
+        new Artitalk(Object.assign({
+          appId: 'YoB3jSTtbSA6Ogjnus1iAIUy-MdYXbMMI',
+          appKey: '6jiQi5eEMaGejvExAQChxF7R',
+        }, {"serverURL":"https://yob3jstt.api.lncldglobal.com","lang":"zh","pageSize":1,"color1":"#49b1f5","color2":"#00c4b6","atEmoji":{"Mafumafu1":"https://cdn.jsdelivr.net/gh/GamerNoTitle/ValineCDN@master/Mafumafu/199749454.png","Mafumafu2":"https://cdn.jsdelivr.net/gh/GamerNoTitle/ValineCDN@master/Mafumafu/199749455.png"}} ))
+      }
+      if (typeof Artitalk === 'function') {
+        init()
+      } else {
+        getScript('https://unpkg.zhimg.com/artitalk').then(init)
+      }
+    })()
+    }
+  var elist = '/artitalk/,/posts/'.split(',');
+  var cpage = location.pathname;
+  var epage = '/';
+  var flag = 0;
+
+  for (var i=0;i<elist.length;i++){
+    if (cpage.includes(elist[i])){
+      flag++;
+    }
+  }
+
+  if ((epage ==='all')&&(flag == 0)){
+    card_artitalk_injector_config();
+  }
+  else if (epage === cpage){
+    card_artitalk_injector_config();
+  }
+  </script><script async="" src="https://unpkg.zhimg.com/hexo-butterfly-artitalk-pro/lib/card_visual.js"></script><script data-pjax="">
+  function butterfly_clock_injector_config(){
+    var parent_div_git = document.getElementsByClassName('sticky_layout')[0];
+    var item_html = '<div class="card-widget card-clock"><div class="card-glass"><div class="card-background"><div class="card-content"><div id="hexo_electric_clock"><img class="entered loading" id="card-clock-loading" src="/img/loading.gif" style="height: 120px; width: 100%;" data-ll-status="loading"/></div></div></div></div></div>';
+    console.log('已挂载butterfly_clock')
+    parent_div_git.insertAdjacentHTML("afterbegin",item_html)
+    }
+  var elist = 'null'.split(',');
+  var cpage = location.pathname;
+  var epage = 'all';
+  var flag = 0;
+
+  for (var i=0;i<elist.length;i++){
+    if (cpage.includes(elist[i])){
+      flag++;
+    }
+  }
+
+  if ((epage ==='all')&&(flag == 0)){
+    butterfly_clock_injector_config();
+  }
+  else if (epage === cpage){
+    butterfly_clock_injector_config();
+  }
+  </script><script src="https://pv.sohu.com/cityjson?ie=utf-8"></script><script data-pjax="" src="https://cdn.jsdelivr.net/npm/hexo-butterfly-clock/lib/clock.min.js"></script><script data-pjax="">
+  function butterfly_footer_beautify_injector_config(){
+    var parent_div_git = document.getElementById('footer-wrap');
+    var item_html = '<div id="workboard"></div><p id="ghbdages"><a class="github-badge" target="_blank" href="https://hexo.io/" style="margin-inline:5px" title=""><img src="https://img.shields.io/badge/Frame-Hexo-blue?style=flat&amp;logo=hexo" alt=""/></a><a class="github-badge" target="_blank" href="https://butterfly.js.org/" style="margin-inline:5px" title=""><img src="https://img.shields.io/badge/Theme-Butterfly-6513df?style=flat&amp;logo=bitdefender" alt=""/></a><a class="github-badge" target="_blank" href="https://www.jsdelivr.com/" style="margin-inline:5px" title=""><img src="https://img.shields.io/badge/CDN-jsDelivr-orange?style=flat&amp;logo=jsDelivr" alt=""/></a><a class="github-badge" target="_blank" href="https://vercel.com/" style="margin-inline:5px" title=""><img src="https://img.shields.io/badge/Hosted-Vercel-brightgreen?style=flat&amp;logo=Vercel" alt=""/></a><a class="github-badge" target="_blank" href="https://vercel.com/" style="margin-inline:5px" title=""><img src="https://img.shields.io/badge/Hosted-Coding-0cedbe?style=flat&amp;logo=Codio" alt=""/></a><a class="github-badge" target="_blank" href="https://github.com/" style="margin-inline:5px" title=""><img src="https://img.shields.io/badge/Source-Github-d021d6?style=flat&amp;logo=GitHub" alt=""/></a><a class="github-badge" target="_blank" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" style="margin-inline:5px" title=""><img src="https://img.shields.io/badge/Copyright-BY--NC--SA%204.0-d42328?style=flat&amp;logo=Claris" alt=""/></a></p>';
+    console.log('已挂载butterfly_footer_beautify')
+    parent_div_git.insertAdjacentHTML("beforeend",item_html)
+    }
+  var elist = 'null'.split(',');
+  var cpage = location.pathname;
+  var epage = 'all';
+  var flag = 0;
+
+  for (var i=0;i<elist.length;i++){
+    if (cpage.includes(elist[i])){
+      flag++;
+    }
+  }
+
+  if ((epage ==='all')&&(flag == 0)){
+    butterfly_footer_beautify_injector_config();
+  }
+  else if (epage === cpage){
+    butterfly_footer_beautify_injector_config();
+  }
+  </script><script async="" src="/js/footer-beautify-runtime.js"></script><script data-pjax="">
+  function butterfly_swiper_injector_config(){
+    var parent_div_git = document.getElementById('recent-posts');
+    var item_html = '<div class="recent-post-item" style="height: auto;width: 100%"><div class="blog-slider swiper-container-fade swiper-container-horizontal" id="swiper_container"><div class="blog-slider__wrp swiper-wrapper" style="transition-duration: 0ms;"><div class="blog-slider__item swiper-slide" style="width: 750px; opacity: 1; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;"><a class="blog-slider__img" href="2021/12/29/python/" alt=""><img width="48" height="48" src="https://bu.dusays.com/2022/01/10/dc5fce8ada28f.jpeg" alt="" onerror="this.src=https://cdn.jsdelivr.net/npm/akilar-candyassets/image/loading.gif; this.onerror = null;"/></a><div class="blog-slider__content"><span class="blog-slider__code">2021-12-29</span><a class="blog-slider__title" href="2021/12/29/python/" alt="">python速记版</a><div class="blog-slider__text">速记</div><a class="blog-slider__button" href="2021/12/29/python/" alt="">详情   </a></div></div><div class="blog-slider__item swiper-slide" style="width: 750px; opacity: 1; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;"><a class="blog-slider__img" href="2021/12/29/java/" alt=""><img width="48" height="48" src="https://bu.dusays.com/2022/01/10/dc5fce8ada28f.jpeg" alt="" onerror="this.src=https://cdn.jsdelivr.net/npm/akilar-candyassets/image/loading.gif; this.onerror = null;"/></a><div class="blog-slider__content"><span class="blog-slider__code">2021-12-29</span><a class="blog-slider__title" href="2021/12/29/java/" alt="">java速记版</a><div class="blog-slider__text">速记</div><a class="blog-slider__button" href="2021/12/29/java/" alt="">详情   </a></div></div><div class="blog-slider__item swiper-slide" style="width: 750px; opacity: 1; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;"><a class="blog-slider__img" href="2021/12/29/数据库/" alt=""><img width="48" height="48" src="https://bu.dusays.com/2022/01/10/1273512bc906d.jpeg" alt="" onerror="this.src=https://cdn.jsdelivr.net/npm/akilar-candyassets/image/loading.gif; this.onerror = null;"/></a><div class="blog-slider__content"><span class="blog-slider__code">2021-12-29</span><a class="blog-slider__title" href="2021/12/29/数据库/" alt="">数据库速记版</a><div class="blog-slider__text">速记</div><a class="blog-slider__button" href="2021/12/29/数据库/" alt="">详情   </a></div></div><div class="blog-slider__item swiper-slide" style="width: 750px; opacity: 1; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;"><a class="blog-slider__img" href="2021/12/29/中间件 /" alt=""><img width="48" height="48" src="https://bu.dusays.com/2022/01/10/1273512bc906d.jpeg" alt="" onerror="this.src=https://cdn.jsdelivr.net/npm/akilar-candyassets/image/loading.gif; this.onerror = null;"/></a><div class="blog-slider__content"><span class="blog-slider__code">2021-12-29</span><a class="blog-slider__title" href="2021/12/29/中间件 /" alt="">中间件速记版</a><div class="blog-slider__text">速记</div><a class="blog-slider__button" href="2021/12/29/中间件 /" alt="">详情   </a></div></div><div class="blog-slider__item swiper-slide" style="width: 750px; opacity: 1; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;"><a class="blog-slider__img" href="2022/06/06/Selenium Python 教程/" alt=""><img width="48" height="48" src="https://moyaopicture.oss-cn-shenzhen.aliyuncs.com/img/20220606下载.png" alt="" onerror="this.src=https://cdn.jsdelivr.net/npm/akilar-candyassets/image/loading.gif; this.onerror = null;"/></a><div class="blog-slider__content"><span class="blog-slider__code">2022-06-06</span><a class="blog-slider__title" href="2022/06/06/Selenium Python 教程/" alt="">selenium Python教程</a><div class="blog-slider__text">笔记</div><a class="blog-slider__button" href="2022/06/06/Selenium Python 教程/" alt="">详情   </a></div></div><div class="blog-slider__item swiper-slide" style="width: 750px; opacity: 1; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;"><a class="blog-slider__img" href="2021/12/29/计算机网络/" alt=""><img width="48" height="48" src="https://bu.dusays.com/2022/01/10/dc5fce8ada28f.jpeg" alt="" onerror="this.src=https://cdn.jsdelivr.net/npm/akilar-candyassets/image/loading.gif; this.onerror = null;"/></a><div class="blog-slider__content"><span class="blog-slider__code">2021-12-29</span><a class="blog-slider__title" href="2021/12/29/计算机网络/" alt="">计算机网络速记</a><div class="blog-slider__text">速记</div><a class="blog-slider__button" href="2021/12/29/计算机网络/" alt="">详情   </a></div></div><div class="blog-slider__item swiper-slide" style="width: 750px; opacity: 1; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;"><a class="blog-slider__img" href="2022/01/25/如何使用notion高效管理自我 /" alt=""><img width="48" height="48" src="https://bu.dusays.com/2022/01/10/1273512bc906d.jpeg" alt="" onerror="this.src=https://cdn.jsdelivr.net/npm/akilar-candyassets/image/loading.gif; this.onerror = null;"/></a><div class="blog-slider__content"><span class="blog-slider__code">2022-01-25</span><a class="blog-slider__title" href="2022/01/25/如何使用notion高效管理自我 /" alt="">如何使用notion高效管理自我</a><div class="blog-slider__text">notion</div><a class="blog-slider__button" href="2022/01/25/如何使用notion高效管理自我 /" alt="">详情   </a></div></div><div class="blog-slider__item swiper-slide" style="width: 750px; opacity: 1; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;"><a class="blog-slider__img" href="2022/06/06/selenium 启动 Chrome 配置参数问题/" alt=""><img width="48" height="48" src="https://moyaopicture.oss-cn-shenzhen.aliyuncs.com/img/20220606下载.png" alt="" onerror="this.src=https://cdn.jsdelivr.net/npm/akilar-candyassets/image/loading.gif; this.onerror = null;"/></a><div class="blog-slider__content"><span class="blog-slider__code">2022-06-06</span><a class="blog-slider__title" href="2022/06/06/selenium 启动 Chrome 配置参数问题/" alt="">selenium启动chrome配置参数问题</a><div class="blog-slider__text">笔记</div><a class="blog-slider__button" href="2022/06/06/selenium 启动 Chrome 配置参数问题/" alt="">详情   </a></div></div></div><div class="blog-slider__pagination swiper-pagination-clickable swiper-pagination-bullets"></div></div></div>';
+    console.log('已挂载butterfly_swiper')
+    parent_div_git.insertAdjacentHTML("afterbegin",item_html)
+    }
+  var elist = 'undefined'.split(',');
+  var cpage = location.pathname;
+  var epage = 'all';
+  var flag = 0;
+
+  for (var i=0;i<elist.length;i++){
+    if (cpage.includes(elist[i])){
+      flag++;
+    }
+  }
+
+  if ((epage ==='all')&&(flag == 0)){
+    butterfly_swiper_injector_config();
+  }
+  else if (epage === cpage){
+    butterfly_swiper_injector_config();
+  }
+  </script><script defer="" src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.1.6/js/swiper.min.js"></script><script defer="" data-pjax="" src="https://cdn.jsdelivr.net/npm/hexo-butterfly-swiper/lib/swiper_init.js"></script><!-- hexo injector body_end end --></body></html>
