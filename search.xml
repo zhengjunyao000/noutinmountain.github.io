@@ -4,6 +4,106 @@
   
     
     <entry>
+      <title>typora+upic+阿里云oss写作流</title>
+      <link href="/2022/06/21/typora+upic+%E9%98%BF%E9%87%8C%E4%BA%91oss%E5%86%99%E4%BD%9C%E6%B5%81/"/>
+      <url>/2022/06/21/typora+upic+%E9%98%BF%E9%87%8C%E4%BA%91oss%E5%86%99%E4%BD%9C%E6%B5%81/</url>
+      
+        <content type="html"><![CDATA[<p> 搭建个人博客后写文章不可避免的要选择写作工具和图床</p><h2 id="选择typora"><a href="#选择typora" class="headerlink" title="选择typora"></a>选择typora</h2><p>目前主力是使用typora写作，这款工具简洁易用，所见即所得，没有那么多花里胡哨，不愧是国产之光</p><p><img src="https://moyaopicture.oss-cn-shenzhen.aliyuncs.com/img/20220621image-20220621102723072.png" alt="image-20220621102723072"></p><h2 id="图床选择自己搭建的阿里云oss图床"><a href="#图床选择自己搭建的阿里云oss图床" class="headerlink" title="图床选择自己搭建的阿里云oss图床"></a>图床选择自己搭建的阿里云oss图床</h2><p>图床选择的话之前一直白嫖jsd，自从jsd被限制后就转用了知乎的，后面知乎图床也不对外开放，兜兜转转一堆麻烦，图片迁移来迁移去很麻烦，果然免费才是最贵的，自己用阿里云oss搭建了个图床，流量费也还可以，毕竟图片是存在自己这里的，而且速度和稳定都可以，当然也搭过github图床，因为在国内不是很稳定，我就老是上传不了，梯子需要一直切换节点改host等很麻烦，作罢</p><p><img src="https://moyaopicture.oss-cn-shenzhen.aliyuncs.com/img/20220621image-20220621103512878.png" alt="image-20220621103512878"></p><p><img src="https://moyaopicture.oss-cn-shenzhen.aliyuncs.com/img/20220621image-20220621103622842.png" alt="image-20220621103622842"></p><h2 id="图床上传工具upic"><a href="#图床上传工具upic" class="headerlink" title="图床上传工具upic"></a>图床上传工具upic</h2><p>搭建后图床后需要一款工具连接图床，阿里云官方的不好用，我是mac端所以在GitHub上找了个开源工具upic，应用商店现在有上架，配置起来很简单，支持截图剪切板上传</p><p><img src="https://moyaopicture.oss-cn-shenzhen.aliyuncs.com/img/20220621image-20220621104007183.png" alt="image-20220621104007183"></p><p><img src="https://moyaopicture.oss-cn-shenzhen.aliyuncs.com/img/20220621image-20220621104031068.png" alt="image-20220621104031068"></p><p>typora支持upic的上传服务</p><p><img src="https://moyaopicture.oss-cn-shenzhen.aliyuncs.com/img/20220621image-20220621104150735.png" alt="image-20220621104150735"></p><h2 id="写作流"><a href="#写作流" class="headerlink" title="写作流"></a>写作流</h2><p>用typora写作，然后图片直接截图，粘贴，typora会自动将截图上传至我的图床，然后继续写作，相比之前上传然后粘贴图片url简单多了，而且避免了思路在来回切换时的打断，写完后直接保存更新至我的博客中，当然一篇博客可以一键多平台同步，还有typora写作的md文档可以选择工具转换适配微信公众号，这些技巧下面会继续说</p><p>感谢您的阅读，有什么问题可以email找我</p><link rel="stylesheet" href="/css/bilicard.css" type="text/css">]]></content>
+      
+      
+      <categories>
+          
+          <category> 工作流 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 效率工具 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>使用i微信阅读笔记一键同步到notion</title>
+      <link href="/2022/06/21/%E5%A6%82%E4%BD%95%E5%B0%86%E5%BE%AE%E4%BF%A1%E8%AF%BB%E4%B9%A6%E7%9A%84%E7%AC%94%E8%AE%B0%E4%B8%80%E9%94%AE%E5%90%8C%E6%AD%A5%E5%88%B0_notion_/"/>
+      <url>/2022/06/21/%E5%A6%82%E4%BD%95%E5%B0%86%E5%BE%AE%E4%BF%A1%E8%AF%BB%E4%B9%A6%E7%9A%84%E7%AC%94%E8%AE%B0%E4%B8%80%E9%94%AE%E5%90%8C%E6%AD%A5%E5%88%B0_notion_/</url>
+      
+        <content type="html"><![CDATA[<p><a href="https://secreter.github.io/ireader/index.html">i 微信读书插件</a>，之前已经支持了将笔记同步到 flomo 和 readwise，notion</p><p>由于 notion 的接口稍微比其他第三方复杂一点，一共需要两个步骤，所以单独写一篇使用文档。</p><h2 id="notion-效果"><a href="#notion-效果" class="headerlink" title="notion 效果"></a><strong>notion 效果</strong></h2><p>我们先来看下同步成功的效果。</p><p>• 插件会在一个目录 (page) 下，自动创建一个叫 “i 微信读书” 的表格（database）。 会记录每本书的标题、链接、作者、简介、评分、字数等基本信息。</p><p><img src="https://cdn.jsdelivr.net/gh/noutinmountain/img@main/img/20220621.png"></p><p>• 我们可以使用 notion 的视图功能，来展示不同的样式。</p><p><img src="https://moyaopicture.oss-cn-shenzhen.aliyuncs.com/img/20220621FSPnmh.png"></p><p>• 点击每条记录，会进入到笔记详情当中，包含每本书所有的划线和评论。</p><p><img src="https://moyaopicture.oss-cn-shenzhen.aliyuncs.com/img/20220621pxn2Cg.png"><img src="https://moyaopicture.oss-cn-shenzhen.aliyuncs.com/img/20220621xud1Oi.png"></p><h2 id="i-微信读书插件配置"><a href="#i-微信读书插件配置" class="headerlink" title="i 微信读书插件配置"></a><strong>i 微信读书插件配置</strong></h2><p>i 微信读书插件需要配置两个参数，分别对应 notion 的两个步骤。 一个是 token，一个是 page_id。</p><p><img src="https://moyaopicture.oss-cn-shenzhen.aliyuncs.com/img/20220621x6ifyG.png"></p><h3 id="token"><a href="#token" class="headerlink" title="token"></a><strong>token</strong></h3><p>首先我们要理解，插件相当于创建了一个机器人，帮你把微信读书笔记，写到了你的 notion 笔记本当中。 而恰好 notion 支持创建机器人，这里的 token 就是机器人的授权码，谁拿到这个授权码，谁就可以对机器人发号施令。（当然，机器人的权限是受限制的，并且主人可以随时关闭和删除机器人，所以不用担心安全问题）</p><p>那怎么创建 notion 机器人呢？其实 notion 有文档，为了操作简单，我可以直接告诉你。</p><ol><li>登陆 notion。2. 访问 <a href="https://www.notion.so/my-integrations">https://www.notion.so/my-integrations</a>。3. 填写必要的信息，点击创建。</li></ol><p><img src="https://moyaopicture.oss-cn-shenzhen.aliyuncs.com/img/20220621B1BfMN.png"><img src="https://moyaopicture.oss-cn-shenzhen.aliyuncs.com/img/20220621XP1Dk5.png"></p><p>就这么简单，可以看到，这里我创建了一个叫 ireader 的机器人，上面的 Secrets 就是我说的 token，复制它填写到插件的第一个输入框即可。</p><h3 id="page-id"><a href="#page-id" class="headerlink" title="page_id"></a><strong>page_id</strong></h3><p>page_id 主要是 notion 用来权限控制的，你可以理解为，你虽然创建了一个 notion 机器人，但他可以访问你的哪个目录，哪个文件，其实需要你给他开一下权限。就像给你的朋友分享文档权限一样。</p><p>所有这里，我们要找一个页面，给机器人开启编辑权限即可。</p><p>例如，我在 “笔记” 页面下，点击“share”，邀请了机器人 ireader 。</p><blockquote><p>注意，这里父级要的是一个 page , 不是 database。</p></blockquote><p>![](/Users/zhengjunyao/Library/Application Support/typora-user-images/image-20220621100456286.png)</p><p>机器人对这个页面有了编辑权限，地址栏中的后面那串字符串就是 page_id ，我们拷贝复制到第二个输入框即可。 注意，如果你的目录名称是英文，URL 上除去英文名称的部分才是 pageid</p><h3 id="验证"><a href="#验证" class="headerlink" title="验证"></a><strong>验证</strong></h3><p>我们在插件中填入 token 和 page_id 后，点击同步，可以看到同步成功，则说明配置成功，后续将不用重新配置，每本书轻轻一点即可。</p><p><img src="https://moyaopicture.oss-cn-shenzhen.aliyuncs.com/img/20220621x6ifyG.png"></p><h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a><strong>安装</strong></h2><h3 id="可以在-Chrome-应用商店搜索-“i-微信读书”-安装插件"><a href="#可以在-Chrome-应用商店搜索-“i-微信读书”-安装插件" class="headerlink" title="可以在 Chrome 应用商店搜索 “i 微信读书” 安装插件"></a><strong>可以在 Chrome 应用商店搜索 “i 微信读书” 安装插件</strong></h3><p><img src="https://moyaopicture.oss-cn-shenzhen.aliyuncs.com/img/20220621TfUISd.png"></p><h3 id="无法访问-google-的朋友，可以访问官网进行手动下载安装。"><a href="#无法访问-google-的朋友，可以访问官网进行手动下载安装。" class="headerlink" title="无法访问 google 的朋友，可以访问官网进行手动下载安装。"></a><strong>无法访问 google 的朋友，可以访问官网进行手动下载安装。</strong></h3><blockquote><p><a href="https://secreter.github.io/ireader/index.html">https://secreter.github.io/ireader/index.html</a></p></blockquote><p><img src="https://moyaopicture.oss-cn-shenzhen.aliyuncs.com/img/20220621iwVpYm.png"></p><link rel="stylesheet" href="/css/bilicard.css" type="text/css">]]></content>
+      
+      
+      <categories>
+          
+          <category> 效率工具 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> notion </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>渗透测试靶场pikachu搭建（docker）</title>
+      <link href="/2022/06/15/Docker%E5%AE%89%E8%A3%85%E9%83%A8%E7%BD%B2%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E5%B9%B3%E5%8F%B0pikachu/"/>
+      <url>/2022/06/15/Docker%E5%AE%89%E8%A3%85%E9%83%A8%E7%BD%B2%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E5%B9%B3%E5%8F%B0pikachu/</url>
+      
+        <content type="html"><![CDATA[<p>“如果你想搞懂一个漏洞，比较好的方法是：你可以自己先制造出这个漏洞（用代码编写），然后再利用它，最后再修复它”</p><p>Pikachu是一个带有漏洞的Web应用系统，在这里包含了常见的web安全漏洞。 如果你是一个Web渗透测试学习人员且正发愁没有合适的靶场进行练习，那么Pikachu可能正合你意</p><h2 id="下载pikachu到本地"><a href="#下载pikachu到本地" class="headerlink" title="下载pikachu到本地"></a>下载pikachu到本地</h2><p><a href="https://github.com/zhuifengshaonianhanlu/pikachu">下载点击这里</a></p><p><img src="https://moyaopicture.oss-cn-shenzhen.aliyuncs.com/img/20220615CVtmzU.png" alt="image-20220615170740536"></p><h2 id="Docker上部署前的准备"><a href="#Docker上部署前的准备" class="headerlink" title="Docker上部署前的准备"></a>Docker上部署前的准备</h2><p>首先得提前安装好”PHP+MYSQL+中间件（如apache,nginx等）”的基础环境</p><p>在docker直接输入以下命令：</p><p><code>docker pull mysql  </code></p><p><code>docker pull php</code></p><p><img src="https://moyaopicture.oss-cn-shenzhen.aliyuncs.com/img/20220615W6C3TI.png" alt="image-20220615171034456"></p><h2 id="部署pikachu"><a href="#部署pikachu" class="headerlink" title="部署pikachu"></a>部署pikachu</h2><ol><li>切换到pikachu本地路径</li><li>输入以下命令（注意最后有个点，默认使用 “上下文目录（Context）下的名为Dockerfile 的文件作为 Dockerfile”）</li></ol><p><code>docker build -t &quot;pikachu&quot; .</code></p><p><img src="https://moyaopicture.oss-cn-shenzhen.aliyuncs.com/img/20220615s32Tqh.png" alt="image-20220615171348560"></p><ol start="3"><li>部署运行成功</li></ol><p><img src="https://moyaopicture.oss-cn-shenzhen.aliyuncs.com/img/20220615gnxZrQ.png" alt="image-20220615171540021"></p><p>4.进入docker直接跳转即可</p><p><img src="https://moyaopicture.oss-cn-shenzhen.aliyuncs.com/img/20220615pkIXlS.png" alt="image-20220615171952695"></p><ol start="5"><li>本地部署成功</li></ol><p><img src="https://moyaopicture.oss-cn-shenzhen.aliyuncs.com/img/2022061548uTa4.png" alt="image-20220615172120211"></p><h2 id="部署成功直接开干，渗透测试的靶场拿来练习"><a href="#部署成功直接开干，渗透测试的靶场拿来练习" class="headerlink" title="部署成功直接开干，渗透测试的靶场拿来练习"></a>部署成功直接开干，渗透测试的靶场拿来练习</h2><link rel="stylesheet" href="/css/bilicard.css" type="text/css">]]></content>
+      
+      
+      <categories>
+          
+          <category> 软件测试 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 渗透测试 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Docker(mac)的安装</title>
+      <link href="/2022/06/15/%E5%AE%89%E8%A3%85_Docker%EF%BC%88macOS%EF%BC%89/"/>
+      <url>/2022/06/15/%E5%AE%89%E8%A3%85_Docker%EF%BC%88macOS%EF%BC%89/</url>
+      
+        <content type="html"><![CDATA[<p>本文简单介绍介绍如何在 macOS 系统下安装 Docker</p><h2 id="前提条件"><a href="#前提条件" class="headerlink" title="前提条件"></a>前提条件</h2><p>安装 Docker 时，macOS 系统最低要求为 Mojave 10.14。详情请访问 <a href="https://docs.docker.com/docker-for-mac/">Docker Desktop for Mac</a>。</p><h2 id="安装-Docker"><a href="#安装-Docker" class="headerlink" title="安装 Docker"></a>安装 Docker</h2><h3 id="方式一：使用-Homebrew-安装"><a href="#方式一：使用-Homebrew-安装" class="headerlink" title="方式一：使用 Homebrew 安装"></a>方式一：使用 Homebrew 安装</h3><p><a href="https://brew.sh/">Homebrew</a> 的 <a href="https://github.com/Homebrew/homebrew-cask">Cask</a> 已经支持 Docker Desktop for Mac。因此，您可以很方便的使用 Homebrew Cask 来安装 Docker：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ brew install --cask docker</span><br></pre></td></tr></table></figure><h3 id="方式二：手动下载安装"><a href="#方式二：手动下载安装" class="headerlink" title="方式二：手动下载安装"></a>方式二：手动下载安装</h3><p>如果您需要手动下载，请下载 Docker 官网的 <a href="https://desktop.docker.com/mac/stable/Docker.dmg">Docker.dmg</a> 文件，文件大约 500 MB。</p><p>如同 macOS 其它软件一样，安装也非常简单，双击下载的 <code>.dmg</code> 文件，然后将 <a href="https://www.docker.com/blog/call-me-moby-dock/">Moby</a> 的鲸鱼图标拖拽到 <code>Application</code> 文件夹即可。</p><p><img src="https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/goat/20210326/04fac8178ce743ca80ae100fbd463a99.png"></p><h2 id="运行-Docker-中的服务"><a href="#运行-Docker-中的服务" class="headerlink" title="运行 Docker 中的服务"></a>运行 Docker 中的服务</h2><ol><li>从您的桌面应用中找到 Docker 图标并点击运行。</li><li>运行之后，会在右上角菜单栏看到多了一个 Moby 鲸鱼图标，这个图标表明了 Docker 的运行状态。</li><li>每次点击鲸鱼图标会弹出操作菜单。</li><li>之后，您可以在终端通过命令检查安装后的 Docker 版本。 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">$ docker --version</span><br><span class="line">Docker version 20.10.0, build 7287ab3</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure></li><li>（可选）如果 <code>docker version</code>、<code>docker info</code> 都正常的话，可以尝试运行一个 <a href="https://hub.docker.com/_/nginx/">Nginx 服务器</a>。<ol><li>运行以下命令运行 Nginx 服务。 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ docker run -d -p 80:80 --name webserver nginx</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure></li><li>服务运行后，访问 <a href="http://localhost/">http://localhost</a>，如果看到了 “Welcome to nginx!”，就说明 Docker Desktop for Mac 安装成功了。</li><li>要停止 Nginx 服务器并删除执行下面的命令： <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">$ docker stop webserver</span><br><span class="line">$ docker rm webserver</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure></li></ol></li></ol><h2 id="镜像加速"><a href="#镜像加速" class="headerlink" title="镜像加速"></a>镜像加速</h2><p>如果您在使用过程中发现拉取 Docker 镜像十分缓慢，可以配置 <a href="https://developer.tuya.com/cn/docs/iot/device-development/edge-computing/docker-install/mirror?id=Kag5inkdpb60w">Docker 国内镜像加速</a>。</p><link rel="stylesheet" href="/css/bilicard.css" type="text/css">]]></content>
+      
+      
+      <categories>
+          
+          <category> 运维 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Docker </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>存储型xss的攻防</title>
       <link href="/2022/06/15/%E5%AD%98%E5%82%A8%E5%9E%8B_XSS_%E7%9A%84%E6%94%BB%E9%98%B2/"/>
       <url>/2022/06/15/%E5%AD%98%E5%82%A8%E5%9E%8B_XSS_%E7%9A%84%E6%94%BB%E9%98%B2/</url>
@@ -154,7 +254,7 @@
     
     
     <entry>
-      <title>如何使用notion高效管理自我</title>
+      <title>使用notion高效管理自我</title>
       <link href="/2022/01/25/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8notion%E9%AB%98%E6%95%88%E7%AE%A1%E7%90%86%E8%87%AA%E6%88%91%20/"/>
       <url>/2022/01/25/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8notion%E9%AB%98%E6%95%88%E7%AE%A1%E7%90%86%E8%87%AA%E6%88%91%20/</url>
       
