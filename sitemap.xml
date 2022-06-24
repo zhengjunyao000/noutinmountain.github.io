@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.zhengjunyao.top/2022/06/24/YouTube%E5%92%8Ctwitter%E7%9A%84%E7%83%AD%E7%82%B9%E6%A6%9C%E5%8D%95/</loc>
+    
+    <lastmod>2022-06-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.zhengjunyao.top/2022/06/24/mysql%E8%A1%A8%E7%9A%84%E5%A2%9E%E5%88%A0%E6%94%B9%E6%9F%A5/</loc>
     
     <lastmod>2022-06-24</lastmod>
@@ -21,15 +30,6 @@
   
   <url>
     <loc>https://www.zhengjunyao.top/2022/06/21/%E5%B0%86%E5%BE%AE%E4%BF%A1%E8%AF%BB%E4%B9%A6%E7%9A%84%E7%AC%94%E8%AE%B0%E4%B8%80%E9%94%AE%E5%90%8C%E6%AD%A5%E5%88%B0_notion_/</loc>
-    
-    <lastmod>2022-06-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.zhengjunyao.top/2022/06/24/YouTube%E5%92%8Ctwitter%E7%9A%84%E7%83%AD%E7%82%B9%E6%A6%9C%E5%8D%95/</loc>
     
     <lastmod>2022-06-24</lastmod>
     
@@ -401,14 +401,14 @@
   </url>
   
   <url>
-    <loc>https://www.zhengjunyao.top/tags/YouTube-twitter/</loc>
+    <loc>https://www.zhengjunyao.top/tags/github/</loc>
     <lastmod>2022-06-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.zhengjunyao.top/tags/github/</loc>
+    <loc>https://www.zhengjunyao.top/tags/YouTube/</loc>
     <lastmod>2022-06-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -473,14 +473,14 @@
   </url>
   
   <url>
-    <loc>https://www.zhengjunyao.top/categories/%E8%87%AA%E5%AA%92%E4%BD%93/</loc>
+    <loc>https://www.zhengjunyao.top/categories/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/</loc>
     <lastmod>2022-06-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.zhengjunyao.top/categories/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/</loc>
+    <loc>https://www.zhengjunyao.top/categories/%E8%87%AA%E5%AA%92%E4%BD%93/</loc>
     <lastmod>2022-06-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
