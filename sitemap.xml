@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.zhengjunyao.top/2022/06/15/Docker%E5%AE%89%E8%A3%85%E9%83%A8%E7%BD%B2%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E5%B9%B3%E5%8F%B0pikachu/</loc>
+    
+    <lastmod>2022-07-17</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.zhengjunyao.top/2022/06/21/%E4%BD%BF%E7%94%A8typora%E8%BD%AC%E6%8D%A2word%E7%AD%89%E5%AF%8C%E6%96%87%E6%9C%AC%E6%96%87%E6%A1%A3/</loc>
     
     <lastmod>2022-07-17</lastmod>
@@ -57,15 +66,6 @@
   
   <url>
     <loc>https://www.zhengjunyao.top/2022/07/09/%E4%BD%BF%E7%94%A8zapier%E8%87%AA%E5%8A%A8%E5%8C%96pocket%E5%92%8Cnotion/</loc>
-    
-    <lastmod>2022-07-17</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.zhengjunyao.top/2022/06/15/Docker%E5%AE%89%E8%A3%85%E9%83%A8%E7%BD%B2%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E5%B9%B3%E5%8F%B0pikachu/</loc>
     
     <lastmod>2022-07-17</lastmod>
     
@@ -394,6 +394,13 @@
   </url>
   
   <url>
+    <loc>https://www.zhengjunyao.top/tags/YouTube/</loc>
+    <lastmod>2022-07-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://www.zhengjunyao.top/tags/github/</loc>
     <lastmod>2022-07-17</lastmod>
     <changefreq>weekly</changefreq>
@@ -402,13 +409,6 @@
   
   <url>
     <loc>https://www.zhengjunyao.top/tags/mysql/</loc>
-    <lastmod>2022-07-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.zhengjunyao.top/tags/YouTube/</loc>
     <lastmod>2022-07-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -473,6 +473,13 @@
   </url>
   
   <url>
+    <loc>https://www.zhengjunyao.top/categories/%E8%87%AA%E5%AA%92%E4%BD%93/</loc>
+    <lastmod>2022-07-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://www.zhengjunyao.top/categories/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/</loc>
     <lastmod>2022-07-17</lastmod>
     <changefreq>weekly</changefreq>
@@ -481,13 +488,6 @@
   
   <url>
     <loc>https://www.zhengjunyao.top/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/</loc>
-    <lastmod>2022-07-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.zhengjunyao.top/categories/%E8%87%AA%E5%AA%92%E4%BD%93/</loc>
     <lastmod>2022-07-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
