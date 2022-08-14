@@ -4,14 +4,14 @@
  * @Autor: zheng
  * @Date: 2021-12-31 15:35:18
  * @LastEditors: zheng
- * @LastEditTime: 2021-12-31 15:35:19
+ * @LastEditTime: 2022-08-14 16:52:58
  */
 if(PublicSacrificeDay()){
     document.getElementsByTagName("html")[0].setAttribute("style","filter:gray !important;filter:grayscale(100%);-webkit-filter:grayscale(100%);-moz-filter:grayscale(100%);-ms-filter:grayscale(100%);-o-filter:grayscale(100%);");
   }
   
   function PublicSacrificeDay(){
-      var PSFarr=new Array("0403","0404","0405","0406","0414","0512","0707","0807","0814","0909","0918","0930","1025","1213");
+      var PSFarr=new Array("0404","0512","0707","0918","1213");
       //2020年4月4日 新冠肺炎哀悼日，清明节
       //2010年4月14日，青海玉树地震
       //2008年5月12日，四川汶川地震
